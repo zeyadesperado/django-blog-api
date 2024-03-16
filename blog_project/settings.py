@@ -82,6 +82,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'blog_db',
+        'DEBUG': True,
         'CLIENT': {
            'host': 'localhost',
         }
